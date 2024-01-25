@@ -112,8 +112,7 @@ class Home extends Component {
     return (
       <div>
         <Header heading={name} cartItems={cartItems} />
-        <h1>{name}</h1>
-
+      <div className="className="bg-container"">
         <ul>
           {allData.map(each => (
             <CustomButton
@@ -134,6 +133,7 @@ class Home extends Component {
             />
           ))}
         </ul>
+      </div>    
       </div>
     )
   }
